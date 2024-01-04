@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d7cfcf;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.text .fancy {
+    color: #3498db;
+    font-style: italic;
+}
+
+#images {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#images li {
+    margin: 10px;
+}
+
+#images img {
+    border-radius: 8px;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#images img:hover {
+    transform: scale(1.1);
+}
+
+#google {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#google:hover {
+    text-decoration: underline;
+}
+
